@@ -1,0 +1,232 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  width: fit-content;
+  background: linear-gradient(to top right, rgb(133, 48, 66), rgb(21, 74, 124));
+}
+h4 {
+  font-size: 6rem;
+}
+.sec1 {
+  padding: 2rem;
+  color: lightblue;
+  font-size: 4rem;
+  width: fit-content;
+  position: relative;
+  background: linear-gradient(
+    to bottom left,
+    rgb(44, 44, 39),
+    rgb(11, 96, 99),
+    rgb(255, 0, 0)
+  );
+}
+p {
+  position: absolute;
+  color: rgb(232, 245, 55);
+  padding: 2rem;
+  position: absolute;
+  display: flex;
+
+  left: 13rem;
+  top: 0.1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+label {
+  text-transform: capitalize;
+  font-size: 2rem;
+  color: aqua;
+  padding: 2rem;
+}
+.parent {
+  text-align: center;
+  background-color: rgba(10, 153, 117, 0.322);
+  border-radius: 30rem;
+  z-index: 0;
+  padding: 4rem;
+  width: fit-content;
+}
+.info {
+  font-size: 20px;
+  width: 22rem;
+  margin: 1.3rem;
+  z-index: 2;
+  margin-top: 0.3em;
+  padding: 2.2em;
+  font-family: sans-serif;
+  color: rgb(41, 29, 29);
+}
+
+.container {
+  padding: 4rem;
+  margin-left: -1.5rem;
+}
+.submit {
+  z-index: 1;
+  margin-bottom: 2.5rem;
+  padding: 1.2rem;
+  border-radius: 48rem;
+  color: rgb(241, 175, 8);
+  background: rgba(0, 0, 0, 0.562);
+}
+.img-div {
+  position: absolute;
+  width: 29rem;
+  border-radius: 3rem;
+  height: 30rem;
+  top: 30rem;
+  left: 49rem;
+  font-size: 1.1rem;
+  margin-left: -2rem;
+}
+h5 {
+  font-size: 2.2rem;
+
+  width: 26rem;
+  margin-left: 34rem;
+  padding: 2rem;
+
+  font-weight: lighter;
+  color: rgb(185, 214, 190);
+  margin-top: -20rem;
+  position: absolute;
+  text-align: start;
+}
+a {
+  color: rgb(4, 182, 241);
+  text-decoration: none;
+}
+h3 {
+  font-size: 2.3rem;
+  width: 47rem;
+  padding: 2rem;
+  font-weight: lighter;
+  color: rgb(82, 156, 93);
+
+  position: absolute;
+  text-align: start;
+}
+input {
+  border-radius: 31px;
+  background-color: rgb(4, 51, 49);
+  color: rgb(187, 187, 187);
+  font-size: 1.7rem;
+  padding: 1.7rem;
+}
+@media (max-width: 780px) {
+  body {
+    background: linear-gradient(to top right, rgb(12, 48, 66), rgb(8, 24, 1));
+  }
+  h4 {
+    font-size: 5.1rem;
+  }
+  p {
+    position: absolute;
+    color: rgb(232, 245, 55);
+    padding: 2rem;
+    position: absolute;
+    display: flex;
+    font-size: 2.1rem;
+    left: 13rem;
+    top: 0.1rem;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .parent {
+    text-align: center;
+    background-color: rgba(99, 150, 137, 0.322);
+    border-radius: 2rem;
+    z-index: 0;
+    margin-left: -2rem;
+    padding: 4rem;
+    width: 10rem;
+    height: 37rem;
+  }
+  input {
+    border-radius: 20px;
+    background-color: rgb(4, 51, 49);
+    color: rgb(187, 187, 187);
+    font-size: 0.6rem;
+    padding: 0.6rem;
+    width: 7rem;
+    margin-left: -3rem;
+  }
+  .info {
+    font-size: 12px;
+    text-align: start;
+    width: 10rem;
+    margin-left: -3.3rem;
+    z-index: 2;
+
+    padding: 1.8em;
+    font-family: sans-serif;
+    color: rgb(41, 29, 29);
+  }
+  label {
+    margin-left: -7.3rem;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    color: aqua;
+    padding: 2rem;
+  }
+  .submit {
+    z-index: 1;
+    margin-top: -2.3rem;
+    padding: 1rem;
+    justify-content: center;
+    position: absolute;
+    width: fit-content;
+
+    border-radius: 48rem;
+    color: rgb(241, 175, 8);
+    background: rgba(0, 0, 0, 0.562);
+  }
+  .img-div {
+    position: absolute;
+    width: 19rem;
+    border-radius: 3rem;
+    height: 20rem;
+    top: 26rem;
+    left: 11rem;
+  }
+  .phone {
+    height: 9rem;
+    width: 7rem;
+    margin-left: 2rem;
+  }
+  h3 {
+    font-size: 0.9rem;
+    width: 12rem;
+    padding: 2rem;
+    font-weight: lighter;
+    color: rgb(82, 156, 93);
+
+    position: absolute;
+    text-align: start;
+  }
+  h5 {
+    font-size: 0.9rem;
+
+    width: 12rem;
+    margin-left: 0.2rem;
+    padding: 2rem;
+
+    font-weight: lighter;
+    color: rgb(185, 214, 190);
+    margin-top: -20rem;
+    position: absolute;
+    text-align: start;
+  }
+  p {
+    position: absolute;
+    color: rgb(232, 245, 55);
+    padding: 2rem;
+    position: absolute;
+    display: flex;
+
+    left: 6rem;
+    top: 0.1rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+}
